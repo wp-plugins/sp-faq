@@ -12,11 +12,8 @@ A quick, easy way to add an Faq page.
 == Description ==
 
 This plugin add a Faq page in your website.
-
 The plugin adds a Faq tab to your admin menu, which allows you to enter Faq Title and Description items just as you would regular posts.
-
 we have also used accordion function so that user can show/hide Faq titles.
-
 To use this plugin just create a new page and add this short code '[sp_faq limit="-1"]'.
 
 
