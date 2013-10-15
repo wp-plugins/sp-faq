@@ -61,4 +61,3 @@ Yes, Add a new page and add this short code '[sp_faq limit="-1"]'.
 
 = 1.0 =
 Initial release
-
