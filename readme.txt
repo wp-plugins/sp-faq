@@ -12,10 +12,19 @@ A quick, easy way to add an FAQs page.
 == Description ==
 
 This plugin add a FAQs page in your website.
+
 The plugin adds a "FAQ" tab to your admin menu, which allows you to enter Faq Title and Description items just as you would regular posts.
+
 we have also used accordion function so that user can show/hide FAQ titles.
+
 To use this plugin just create a new page and add this short code '[sp_faq limit="-1"]'.
 
+= Features include: =
+* Just create a FAQs page and add short code '[sp_faq limit="-1"]'
+* Easy to configure
+* Accordion
+* Smoothly integrates into any theme
+* CSS and JS file for custmization
 
 == Installation ==
 
