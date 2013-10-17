@@ -1,6 +1,6 @@
 === Add a simple faq page ===
 Contributors: SP Technolab
-Tags: frequently asked questions, wordpress, wordpress faq, WordPress Plugin, faq, faq list, faq with accordion, accordion, custom post type with accordion
+Tags: faq, faq list, faq with accordion, accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin
 Requires at least: 3.1
 Tested up to: 3.6
 Stable tag: trunk
