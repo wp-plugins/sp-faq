@@ -1,4 +1,4 @@
-=== Add a simple faq page ===
+=== Add a simple responsive faq page ===
 Contributors: SP Technolab
 Tags: faq, faq list, faq with accordion, accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin
 Requires at least: 3.1
@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A quick, easy way to add an FAQs page.
+A quick, easy way to add an responsive FAQs page.
 
 == Description ==
 
