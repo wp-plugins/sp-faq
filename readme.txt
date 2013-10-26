@@ -1,4 +1,4 @@
-=== WP responsive faq plugin ===
+=== SP responsive wp-faq plugin ===
 Contributors: SP Technolab
 Tags: faq, faq list, faq plugin, faqs, faq with accordion, accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin
 Requires at least: 3.1
