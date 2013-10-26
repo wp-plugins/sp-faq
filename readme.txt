@@ -7,11 +7,11 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A quick, easy way to add an FAQs page.
+A quick, easy way to add an responsive FAQs page.
 
 == Description ==
 
-This plugin add a FAQs page in your website.
+This faqs plugin add a FAQs page in your wordpress website.
 
 The plugin adds a "FAQ" tab to your admin menu, which allows you to enter Faq Title and Description items just as you would regular posts.
 
@@ -21,10 +21,10 @@ To use this plugin just create a new page and add this short code <code>[sp_faq 
 
 = Features include: =
 * Just create a FAQs page and add short code <code>[sp_faq limit="-1"]'</code>
-* Easy to configure
-* Smooth Accordion effect
+* Easy to configure faq page
+* Smooth faq Accordion effect
 * Smoothly integrates into any theme
-* CSS and JS file for custmization
+* CSS and JS file for faq custmization
 
 == Installation ==
 
@@ -48,7 +48,7 @@ You can also change the css as per your layout
 
 = Are there shortcodes for FAQs items? =
 
-Yes, Add a new page and add this short code <code>[sp_faq limit="-1"]'</code>
+Yes, Add a new faq page and add this short code <code>[sp_faq limit="-1"]'</code>
 
 
 
@@ -56,7 +56,7 @@ Yes, Add a new page and add this short code <code>[sp_faq limit="-1"]'</code>
 
 1. all Faqs
 2. Add new Faq
-3. preview
+3. preview faq
 
 == Changelog ==
 
