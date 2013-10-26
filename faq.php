@@ -3,7 +3,7 @@
 Plugin Name: SP FAQ
 Plugin URL: http://sptechnolab.com
 Description: A simple FAQ plugin
-Version: 1.0
+Version: 2.0
 Author: SP Technolab
 Author URI: http://sptechnolab.com
 Contributors: SP Technolab
@@ -94,21 +94,21 @@ function sp_faq_shortcode( $atts, $content = null ) {
 	if( $post_count > 0) :
 	?>
 	
-	<div id="Accordion1" class="Accordion" tabindex="0">
+	 <ul  class="accordion">
 	<?php
 		// Loop 
 		while ($query->have_posts()) : $query->the_post();
 		?>
-		<div class="AccordionPanel">
+		 <li>
 		
-		 <div class="AccordionPanelTab"><span class="sinumber"><?php echo $i;  ?>.</span> <?php the_title(); ?></div>
-		<div class="AccordionPanelContent" id="sp_faq_<?php echo get_the_ID(); ?>" ><?php echo get_the_content(); ?></div>
+		 <h3><span class="faqtitle"> <?php the_title(); ?></span></h3>
+		 <div class="panel loading"><?php echo get_the_content(); ?></div>
 		
-		</div>
+		</li>
 		<?php
 		$i++;
 		endwhile; ?>
-		</div>
+		</ul>
 		
 <?php	endif;
 	
@@ -126,15 +126,15 @@ function sp_faq_shortcode( $atts, $content = null ) {
 	add_shortcode("sp_faq", "sp_faq_shortcode");
 
 	wp_register_style( 'accordioncss', plugin_dir_url( __FILE__ ) . 'css/accordioncss.css' );
-	wp_register_script( 'accordion', plugin_dir_url( __FILE__ ) . 'js/accordion.js', array( 'jquery' ) );	
+	wp_register_script( 'accordion', plugin_dir_url( __FILE__ ) . 'js/jquery.accordion.2.0.js', array( 'jquery' ) );	
 
 	wp_enqueue_style( 'accordioncss' );
 	wp_enqueue_script( 'accordion' );
-	function myscript() {
+	function myfaqscript() {
 	?>
 	<script type="text/javascript">
-	var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+	 jQuery('.accordion').accordion();
 	</script>
 	<?php
 	}
-add_action('wp_footer', 'myscript'); 
+add_action('wp_footer', 'myfaqscript'); 

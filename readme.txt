@@ -2,7 +2,7 @@
 Contributors: SP Technolab
 Tags: faq, faq list, faq with accordion, accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin
 Requires at least: 3.1
-Tested up to: 3.6
+Tested up to: 3.7
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -17,12 +17,12 @@ The plugin adds a "FAQ" tab to your admin menu, which allows you to enter Faq Ti
 
 we have also used accordion function so that user can show/hide FAQ titles.
 
-To use this plugin just create a new page and add this short code '[sp_faq limit="-1"]'.
+To use this plugin just create a new page and add this short code <code>[sp_faq limit="-1"]'</code>
 
 = Features include: =
-* Just create a FAQs page and add short code '[sp_faq limit="-1"]'
+* Just create a FAQs page and add short code <code>[sp_faq limit="-1"]'</code>
 * Easy to configure
-* Accordion
+* Smooth Accordion effect
 * Smoothly integrates into any theme
 * CSS and JS file for custmization
 
@@ -30,7 +30,7 @@ To use this plugin just create a new page and add this short code '[sp_faq limit
 
 1. Upload the 'sp-faq' folder to the '/wp-content/plugins/' directory.
 2. Activate the sp-faq list plugin through the 'Plugins' menu in WordPress.
-3. Add a new page and add this short code '[sp_faq limit="-1"]'.
+3. Add a new page and add this short code <code>[sp_faq limit="-1"]'</code>
 
 
 == Frequently Asked Questions ==
@@ -48,7 +48,7 @@ You can also change the css as per your layout
 
 = Are there shortcodes for FAQs items? =
 
-Yes, Add a new page and add this short code '[sp_faq limit="-1"]'.
+Yes, Add a new page and add this short code <code>[sp_faq limit="-1"]'</code>
 
 
 
@@ -60,6 +60,12 @@ Yes, Add a new page and add this short code '[sp_faq limit="-1"]'.
 
 == Changelog ==
 
+= 2.0 =
+* Adds custom post type
+* Adds FAQs
+* New css and css file
+* Smooth accordion effect
+
 = 1.0 =
 * Initial release
 * Adds custom post type
@@ -67,6 +73,9 @@ Yes, Add a new page and add this short code '[sp_faq limit="-1"]'.
 
 
 == Upgrade Notice ==
+
+= 2.0 =
+added new css and js file
 
 = 1.0 =
 Initial release
