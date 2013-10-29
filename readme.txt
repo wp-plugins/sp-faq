@@ -1,6 +1,6 @@
 === SP responsive wp-faq plugin ===
 Contributors: SP Technolab, anoopranawat 
-Tags: faq, faq list, faq plugin, faqs, faq with accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin
+Tags: faq, faq list, faq plugin, faqs, faq with accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin, shortcodes
 Requires at least: 3.1
 Tested up to: 3.7
 Stable tag: trunk
@@ -13,11 +13,11 @@ A quick, easy way to add an responsive FAQs page.
 
 This faqs plugin add a FAQs page in your wordpress website.
 
-The plugin adds a "FAQ" tab to your admin menu, which allows you to enter Faq Title and Description items just as you would regular posts.
+The plugin adds a "FAQ" tab to your admin menu, which allows you to enter Faq Title and faq Description items just as you would regular posts.
 
 we have also used accordion function so that user can show/hide FAQ titles.
 
-To use this plugin just create a new page and add this short code <code>[sp_faq limit="-1"]'</code>
+To use this faq plugin just create a new page and add this short code <code>[sp_faq limit="-1"]'</code>
 
 = Features include: =
 * Just create a FAQs page and add short code <code>[sp_faq limit="-1"]'</code>
