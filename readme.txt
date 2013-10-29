@@ -10,22 +10,25 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A quick, easy way to add an responsive FAQs page.
 
 == Description ==
-Many CMS site needs a FAQs section. SP faqs plugin  allows you add, manage and display faq on your wordpress website.
+Many CMS site needs a FAQs section. SP faqs plugin  allows you add, manage and display FAQ on your wordpress website.
 
 This faqs plugin add a FAQs page in your wordpress website.
 
-The plugin adds a "FAQ" tab to your admin menu, which allows you to enter Faq Title and faq Description items just as you would regular posts.
+The plugin adds a "FAQ" tab to your admin menu, which allows you to enter FAQ Title and FAQ Description items just as you would regular posts.
 
 we have also used accordion function so that user can show/hide FAQ titles.
 
-To use this faq plugin just create a new page and add this short code <code>[sp_faq limit="-1"]'</code>
+To use this FAQ plugin just create a new page and add this FAQ short code <code>[sp_faq limit="-1"]'</code>
 
 = Features include: =
 * Just create a FAQs page and add short code <code>[sp_faq limit="-1"]'</code>
-* Easy to configure faq page
-* Smooth faq Accordion effect
+* Easy to configure FAQ page
+* Smooth FAQ Accordion effect
 * Smoothly integrates this paq plugin into any theme
-* CSS and JS file for faq custmization
+* CSS and JS file for FAQ custmization
+
+SP FAQ allows you to provide a well-designed and informative FAQ section, which can  decrease the amount of user inquiries on various issues.
+With the help of given CSS file for this FAQ plugin you can desgin this FAQ plugin as per your layout.
 
 == Installation ==
 
