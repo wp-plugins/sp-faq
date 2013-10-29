@@ -22,10 +22,12 @@ To use this FAQ plugin just create a new page and add this FAQ short code <code>
 
 = Features include: =
 * Just create a FAQs page and add short code <code>[sp_faq limit="-1"]'</code>
+* Add thumb image for FAQ
 * Easy to configure FAQ page
 * Smooth FAQ Accordion effect
 * Smoothly integrates this paq plugin into any theme
 * CSS and JS file for FAQ custmization
+* Search Engine Friendly URLs
 
 SP FAQ allows you to provide a well-designed and informative FAQ section, which can  decrease the amount of user inquiries on various issues.
 With the help of given CSS file for this FAQ plugin you can desgin this FAQ plugin as per your layout.

@@ -102,7 +102,12 @@ function sp_faq_shortcode( $atts, $content = null ) {
 		 <li>
 		
 		 <h3><span class="faqtitle"> <?php the_title(); ?></span></h3>
-		 <div class="panel loading"><?php echo get_the_content(); ?></div>
+		 <div class="panel loading">   <?php
+                  if ( function_exists('has_post_thumbnail') && has_post_thumbnail() ) {
+                    the_post_thumbnail('thumbnail'); 
+                  }
+                  ?>
+				  <?php echo get_the_content(); ?></div>
 		
 		</li>
 		<?php
