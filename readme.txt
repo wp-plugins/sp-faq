@@ -14,9 +14,9 @@ Many CMS site needs a FAQs section. SP faqs plugin  allows you add, manage and d
 
 This faqs plugin add a FAQs page in your wordpress website.
 
-The plugin adds a "FAQ" tab to your admin menu, which allows you to enter FAQ Title and FAQ Description items just as you would regular posts.
+The faq plugin adds a "FAQ" tab to your admin menu, which allows you to enter FAQ Title and FAQ Description items just as you would regular posts.
 
-we have also used accordion function so that user can show/hide FAQ titles.
+we have also used faq accordion function so that user can show/hide FAQ titles.
 
 To use this FAQ plugin just create a new page and add this FAQ short code <code>[sp_faq limit="-1"]'</code>
 
