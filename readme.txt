@@ -1,6 +1,6 @@
 === SP responsive wp-faq plugin ===
 Contributors: SP Technolab, anoopranawat 
-Tags: faq, faq list, faq plugin, faqs, faq with accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin, shortcodes
+Tags: faq, faq list, faq plugin, faqs, jquery ui, jquery ui accordion,  faq with accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin, shortcodes
 Requires at least: 3.1
 Tested up to: 3.7
 Stable tag: trunk
@@ -18,10 +18,10 @@ The faq plugin adds a "FAQ" tab to your admin menu, which allows you to enter FA
 
 we have also used faq accordion function so that user can show/hide FAQ titles.
 
-To use this FAQ plugin just create a new page and add this FAQ short code <code>[sp_faq limit="-1"]'</code>
+To use this FAQ plugin just create a new page and add this FAQ short code <code>[sp_faq limit="-1"]</code>
 
 = Features include: =
-* Just create a FAQs page and add short code <code>[sp_faq limit="-1"]'</code>
+* Just create a FAQs page and add short code <code>[sp_faq limit="-1"]</code>
 * Add thumb image for FAQ
 * Easy to configure FAQ page
 * Smooth FAQ Accordion effect
@@ -36,25 +36,20 @@ With the help of given CSS file for this FAQ plugin you can desgin this FAQ plug
 
 1. Upload the 'sp-faq' folder to the '/wp-content/plugins/' directory.
 2. Activate the sp-faq list plugin through the 'Plugins' menu in WordPress.
-3. Add a new page and add this short code <code>[sp_faq limit="-1"]'</code>
+3. Add a new page and add this short code <code>[sp_faq limit="-1"]</code>
 
 
 == Frequently Asked Questions ==
 
-= What festivals list FAQs are available? =
+= What templates FAQs are available? =
 
 There is one templates named 'faq.php' which work like same as defult POST TYPE in wordpress.
-
-= What's the easiest way to create my own custom version of the FAQs templates? =
-
-For custom version you should have basic knowlage of wordpress ie "Register post type"
-Just open "faq.php" file and change the labels name under FUNCTION sp_faq_setup_post_types { ... }
 
 You can also change the css as per your layout
 
 = Are there shortcodes for FAQs items? =
 
-Yes, Add a new faq page and add this short code <code>[sp_faq limit="-1"]'</code>
+Yes, Add a new faq page and add this short code <code>[sp_faq limit="-1"]</code>
 
 
 
@@ -65,6 +60,12 @@ Yes, Add a new faq page and add this short code <code>[sp_faq limit="-1"]'</code
 3. preview faq
 
 == Changelog ==
+
+= 2.1 =
+* Added jquery UI
+* Adds custom post type
+* Adds FAQs
+* Smooth accordion effect
 
 = 2.0 =
 * Adds custom post type
@@ -79,6 +80,9 @@ Yes, Add a new faq page and add this short code <code>[sp_faq limit="-1"]'</code
 
 
 == Upgrade Notice ==
+
+= 2.1 =
+added new jquery ui
 
 = 2.0 =
 added new css and js file

@@ -3,7 +3,7 @@
 Plugin Name: SP FAQ
 Plugin URL: http://sptechnolab.com
 Description: A simple FAQ plugin
-Version: 2.0
+Version: 2.1
 Author: SP Technolab
 Author URI: http://sptechnolab.com
 Contributors: SP Technolab
