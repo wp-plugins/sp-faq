@@ -94,26 +94,27 @@ function sp_faq_shortcode( $atts, $content = null ) {
 	if( $post_count > 0) :
 	?>
 	
-	 <ul  class="accordion">
+	 <div id="accordion">
 	<?php
 		// Loop 
 		while ($query->have_posts()) : $query->the_post();
 		?>
-		 <li>
 		
-		 <h3><span class="faqtitle"> <?php the_title(); ?></span></h3>
-		 <div class="panel loading">   <?php
+		
+		 <h3> <?php the_title(); ?></h3>
+		 <div>
+<p>  <?php
                   if ( function_exists('has_post_thumbnail') && has_post_thumbnail() ) {
                     the_post_thumbnail('thumbnail'); 
                   }
                   ?>
-				  <?php echo get_the_content(); ?></div>
+				  <?php echo get_the_content(); ?></p></div>
 		
-		</li>
+	
 		<?php
 		$i++;
 		endwhile; ?>
-		</ul>
+		</div>
 		
 <?php	endif;
 	
@@ -130,15 +131,16 @@ function sp_faq_shortcode( $atts, $content = null ) {
 
 	add_shortcode("sp_faq", "sp_faq_shortcode");
 
-	wp_register_style( 'accordioncss', plugin_dir_url( __FILE__ ) . 'css/accordioncss.css' );
-	wp_register_script( 'accordion', plugin_dir_url( __FILE__ ) . 'js/jquery.accordion.2.0.js', array( 'jquery' ) );	
+	wp_register_style( 'accordioncss', plugin_dir_url( __FILE__ ) . 'css/jqueryuicss.css' );
+	wp_register_script( 'accordionjs', plugin_dir_url( __FILE__ ) . 'js/jqueryuijs.js', array( 'jquery' ) );	
 
 	wp_enqueue_style( 'accordioncss' );
-	wp_enqueue_script( 'accordion' );
+	wp_enqueue_script( 'accordionjs' );
 	function myfaqscript() {
 	?>
 	<script type="text/javascript">
-	 jQuery('.accordion').accordion();
+	
+	 jQuery( "#accordion" ).accordion(); 
 	</script>
 	<?php
 	}
