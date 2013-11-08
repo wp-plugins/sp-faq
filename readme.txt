@@ -7,21 +7,22 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A quick, easy way to add an responsive FAQs page.
+A quick, easy way to add an responsive FAQs page. You can use this plugin as a jquery ui accordion.
 
 == Description ==
 Many CMS site needs a FAQs section. SP faqs plugin  allows you add, manage and display FAQ on your wordpress website.
 
-This faqs plugin add a FAQs page in your wordpress website.
+This faqs plugin add a FAQs page in your wordpress website with  jquery ui accordion.
 
 The faq plugin adds a "FAQ" tab to your admin menu, which allows you to enter FAQ Title and FAQ Description items just as you would regular posts.
 
-we have also used faq accordion function so that user can show/hide FAQ titles.
+we have also used faq  jquery ui accordion function so that user can show/hide FAQ titles.
 
 To use this FAQ plugin just create a new page and add this FAQ short code <code>[sp_faq limit="-1"]</code>
 
 = Features include: =
 * Just create a FAQs page and add short code <code>[sp_faq limit="-1"]</code>
+* jquery ui accordion
 * Add thumb image for FAQ
 * Easy to configure FAQ page
 * Smooth FAQ Accordion effect
