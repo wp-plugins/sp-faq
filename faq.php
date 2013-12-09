@@ -140,7 +140,11 @@ function sp_faq_shortcode( $atts, $content = null ) {
 	?>
 	<script type="text/javascript">
 	
-	 jQuery( "#accordion" ).accordion(); 
+	 //jQuery( "#accordion" ).accordion(); 
+	 
+	   jQuery( "#accordion" ).accordion({
+heightStyle: "content"
+});
 	</script>
 	<?php
 	}
