@@ -26,7 +26,7 @@ To use this FAQ plugin just create a new page and add this FAQ short code <code>
 
 OR
 
-If you want to display FAQ by category then use this short code [sp_faq  category="category_ID"]
+If you want to display FAQ by category then use this short code <code>[sp_faq  category="category_ID"]</code>
 
 This faqs plugin add a FAQs page in your wordpress website with  jquery ui accordion.
 
