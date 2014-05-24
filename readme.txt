@@ -1,8 +1,8 @@
-=== SP responsive wp-faq plugin ===
-Contributors: SP Technolab, anoopranawat 
-Tags: faq, faq list, faq plugin, faqs, jquery ui, jquery ui accordion,  faq with accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin, shortcodes
+=== SP responsive wp-faq with category plugin ===
+Contributors: sptechnolab, anoopranawat 
+Tags: faq, faq list, faq plugin, faqs, jquery ui, wp-faq with category, jquery ui accordion,  faq with accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin, shortcodes
 Requires at least: 3.1
-Tested up to: 3.7
+Tested up to: 3.9.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,15 +12,32 @@ A quick, easy way to add an responsive FAQs page. You can use this plugin as a j
 == Description ==
 Many CMS site needs a FAQs section. SP faqs plugin  allows you add, manage and display FAQ on your wordpress website.
 
+Now you can also Fillter OR Display FAQ by category.
+
+Here is the example :
+<code>
+News
+[sp_faq  category="category_ID"]
+sports
+[sp_faq  category="category_ID"]
+</code>
+
+To use this FAQ plugin just create a new page and add this FAQ short code <code>[sp_faq limit="-1"]</code> 
+
+OR
+
+If you want to display FAQ by category then use this short code [sp_faq  category="category_ID"]
+
 This faqs plugin add a FAQs page in your wordpress website with  jquery ui accordion.
 
 The faq plugin adds a "FAQ" tab to your admin menu, which allows you to enter FAQ Title and FAQ Description items just as you would regular posts.
 
 we have also used faq  jquery ui accordion function so that user can show/hide FAQ titles.
 
-To use this FAQ plugin just create a new page and add this FAQ short code <code>[sp_faq limit="-1"]</code>
+
 
 = Features include: =
+* wp-faq with category
 * Just create a FAQs page and add short code <code>[sp_faq limit="-1"]</code>
 * jquery ui accordion
 * Add thumb image for FAQ
@@ -59,8 +76,13 @@ Yes, Add a new faq page and add this short code <code>[sp_faq limit="-1"]</code>
 1. all Faqs
 2. Add new Faq
 3. preview faq
+4. How to add short code
+5. Faq with category
 
 == Changelog ==
+
+= 2.2 =
+* wp-faq with category
 
 = 2.1 =
 * Added jquery UI
@@ -81,6 +103,9 @@ Yes, Add a new faq page and add this short code <code>[sp_faq limit="-1"]</code>
 
 
 == Upgrade Notice ==
+
+= 2.2 =
+wp-faq with category
 
 = 2.1 =
 added new jquery ui

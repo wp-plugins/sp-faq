@@ -3,7 +3,7 @@
 Plugin Name: SP FAQ
 Plugin URL: http://sptechnolab.com
 Description: A simple FAQ plugin
-Version: 2.1
+Version: 2.2
 Author: SP Technolab
 Author URI: http://sptechnolab.com
 Contributors: SP Technolab
@@ -57,7 +57,8 @@ add_action('init', 'sp_faq_setup_post_types');
 function sp_faq_shortcode( $atts, $content = null ) {
 	
 	extract(shortcode_atts(array(
-		"limit" => ''
+		"limit" => '',
+		"category" => '',
 	), $atts));
 	
 	// Define limit
@@ -65,6 +66,12 @@ function sp_faq_shortcode( $atts, $content = null ) {
 		$posts_per_page = $limit; 
 	} else {
 		$posts_per_page = '-1';
+	}
+	// Define limit
+	if( $category ) { 
+		$cat = $category; 
+	} else {
+		$cat = '';
 	}
 	
 	ob_start();
@@ -79,6 +86,7 @@ function sp_faq_shortcode( $atts, $content = null ) {
 								'posts_per_page' => $posts_per_page,
 								'orderby'        => $orderby, 
 								'order'          => $order,
+								'cat'          =>   $cat,
 								'no_found_rows'  => 1
 								) 
 						);
@@ -94,7 +102,7 @@ function sp_faq_shortcode( $atts, $content = null ) {
 	if( $post_count > 0) :
 	?>
 	
-	 <div id="accordion">
+	 <div class="accordion">
 	<?php
 		// Loop 
 		while ($query->have_posts()) : $query->the_post();
@@ -142,7 +150,7 @@ function sp_faq_shortcode( $atts, $content = null ) {
 	
 	 //jQuery( "#accordion" ).accordion(); 
 	 
-	   jQuery( "#accordion" ).accordion({
+	   jQuery( ".accordion" ).accordion({
 heightStyle: "content"
 });
 	</script>

@@ -103,8 +103,10 @@
 	margin-top: -8px;
 }
 .ui-accordion .ui-accordion-content {
-	padding: 1em 2.2em;
-	border-top: 0;
+/*	padding: 1em 2.2em;
+	 border-top: 0; */
+	padding-left: 2em; 
+	border:none;
 	overflow: auto;
 }
 .ui-autocomplete {
@@ -815,8 +817,9 @@ body .ui-tooltip {
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-	border: 1px solid #d3d3d3;
-	background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+/*	border: 1px solid #d3d3d3;
+ 	background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x; */
+ 	border-bottom: 1px solid #d3d3d3;
 	font-weight: normal;
 	color: #555555;
 }
@@ -832,8 +835,8 @@ body .ui-tooltip {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-	border: 1px solid #999999;
-	background: #dadada url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;
+/*	border: 1px solid #999999;
+	background: #dadada url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x; */
 	font-weight: normal;
 	color: #212121;
 }
@@ -847,8 +850,8 @@ body .ui-tooltip {
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
-	border: 1px solid #aaaaaa;
-	background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+/*	border: 1px solid #aaaaaa;
+	background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; */
 	font-weight: normal;
 	color: #212121;
 }
@@ -929,14 +932,14 @@ body .ui-tooltip {
 	background-image: url(images/ui-icons_222222_256x240.png);
 }
 .ui-state-default .ui-icon {
-	background-image: url(images/ui-icons_888888_256x240.png);
+	background-image: url(images/arrow-right3.png);
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(images/ui-icons_454545_256x240.png);
+	background-image: url(images/arrow-down3.png);
 }
 .ui-state-active .ui-icon {
-	background-image: url(images/ui-icons_454545_256x240.png);
+	background-image: url(images/arrow-down3.png);
 }
 .ui-state-highlight .ui-icon {
 	background-image: url(images/ui-icons_2e83ff_256x240.png);
@@ -960,9 +963,9 @@ body .ui-tooltip {
 .ui-icon-carat-2-e-w { background-position: -144px 0; }
 .ui-icon-triangle-1-n { background-position: 0 -16px; }
 .ui-icon-triangle-1-ne { background-position: -16px -16px; }
-.ui-icon-triangle-1-e { background-position: -32px -16px; }
+/* .ui-icon-triangle-1-e { background-position: -32px -16px; } */
 .ui-icon-triangle-1-se { background-position: -48px -16px; }
-.ui-icon-triangle-1-s { background-position: -64px -16px; }
+/* .ui-icon-triangle-1-s { background-position: -64px -16px; } */
 .ui-icon-triangle-1-sw { background-position: -80px -16px; }
 .ui-icon-triangle-1-w { background-position: -96px -16px; }
 .ui-icon-triangle-1-nw { background-position: -112px -16px; }
