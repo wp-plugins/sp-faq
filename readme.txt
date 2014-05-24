@@ -37,7 +37,7 @@ we have also used faq  jquery ui accordion function so that user can show/hide F
 
 
 = Features include: =
-* wp-faq with category
+* wp-faq with category <code>[sp_faq  category="category_ID"]</code>
 * Just create a FAQs page and add short code <code>[sp_faq limit="-1"]</code>
 * jquery ui accordion
 * Add thumb image for FAQ
