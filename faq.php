@@ -111,11 +111,12 @@ function sp_faq_shortcode( $atts, $content = null ) {
 		
 		 <h3> <?php the_title(); ?></h3>
 		 <div>
-<p>  <?php
+<div><?php
                   if ( function_exists('has_post_thumbnail') && has_post_thumbnail() ) {
                     the_post_thumbnail('thumbnail'); 
                   }
                   ?>
+				  </div>
 				  <?php echo get_the_content(); ?></p></div>
 		
 	

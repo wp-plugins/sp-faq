@@ -14,6 +14,8 @@ Many CMS site needs a FAQs section. SP faqs plugin  allows you add, manage and d
 
 Now you can also Fillter OR Display FAQ by category.
 
+View [Demo](http://wordpressplugins.sptechnolab.com/faq-plugin/) for additional information.
+
 Here is the example :
 <code>
 News
