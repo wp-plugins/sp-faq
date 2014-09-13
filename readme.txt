@@ -2,7 +2,7 @@
 Contributors: sptechnolab, anoopranawat 
 Tags: faq, faq list, faq plugin, faqs, jquery ui, wp-faq with category, jquery ui accordion,  faq with accordion, custom post type with accordion, frequently asked questions, wordpress, wordpress faq, WordPress Plugin, shortcodes
 Requires at least: 3.1
-Tested up to: 3.9.1
+Tested up to: 4.0
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
