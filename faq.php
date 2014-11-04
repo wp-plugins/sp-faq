@@ -117,7 +117,7 @@ function sp_faq_shortcode( $atts, $content = null ) {
                   }
                   ?>
 				  </div>
-				  <?php echo get_the_content(); ?></p></div>
+				  <?php the_content(); ?></p></div>
 		
 	
 		<?php
