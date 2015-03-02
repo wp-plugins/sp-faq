@@ -28,11 +28,13 @@ sports
 [sp_faq  category="category_ID"]
 </code>
 
-To use this FAQ plugin just create a new page and add this FAQ short code <code>[sp_faq limit="-1"]</code> 
+To use this FAQ plugin just create a new page and add this FAQ short code 
+<code>[sp_faq limit="-1"]</code> 
 
 OR
 
-If you want to display FAQ by category then use this short code <code>[sp_faq  category="category_ID"]</code>
+If you want to display FAQ by category then use this short code 
+<code>[sp_faq  category="category_ID"]</code>
 
 This faqs plugin add a FAQs page in your wordpress website with  jquery ui accordion.
 
