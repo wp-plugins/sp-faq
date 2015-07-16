@@ -14,8 +14,6 @@ Many CMS site needs a FAQs section. SP faqs plugin  allows you add, manage and d
 
 Now you can also Fillter OR Display FAQ by category.
 
-View [Demo](http://wordpushplugins.in/faq-plugin/) for additional information.
-
 = Installation help and support =
 * Please check [installation help](http://wponlinesupport.com/plugin-installation-support/)  on our website. View [Installation help and support](http://wponlinesupport.com/plugin-installation-support/) 
 * Get [Free installation and setup](http://wponlinesupport.com/plugin-installation-support/)  on your website.
